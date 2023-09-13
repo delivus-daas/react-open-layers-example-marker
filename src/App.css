@@ -1,0 +1,17 @@
+.map {
+  width: 100vw;
+  height: calc(100vh - 50px);
+  overflow: hidden !important;
+  position: relative;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+}
+
+li {
+  padding-left: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}
